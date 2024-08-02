@@ -1022,6 +1022,8 @@ border-radius: 1rem;
 }
 
 /* For medium devices */
+
+
 @media screen and (min-width:320px){
   .nav_menu{
     width: 328px;
@@ -1079,6 +1081,51 @@ border-radius: 1rem;
     margin: 0 auto;
   }
 
+
+}
+
+@media screen and (min-width:360px){
+
+  .home_social{
+
+      margin-left: -4rem;
+  }
+
+  .home_scroll{
+      margin-right: -2rem;
+  }
+
+  .about__img{
+    margin-right: 1rem;
+  }
+
+
+  .about__info{
+    grid-template-columns: repeat(2, 145px);
+    justify-content: center;
+  }
+
+  .skills__content{
+     margin-right: 2rem;
+
+     padding: 1rem;
+
+  }
+
+  .contact__info{
+    margin-right: 1rem;
+  }
+
+  .contact__form{
+      margin-right: 1rem;
+      padding: 1rem;
+  }
+
+  .formtex{
+      font-size: 1rem;
+      text-align: center;
+      padding: -1rem;
+  }
 
 }
 
